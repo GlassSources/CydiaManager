@@ -6,6 +6,7 @@ users.
 ## Compatiblity
 Currently only,
       *CydiaScriptLoader
+      *maybe more coming soon.
 
 is compatible with this plugin.
 
