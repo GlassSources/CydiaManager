@@ -4,9 +4,7 @@ prototype for a pastebin version management system for updating and notifying
 users.
 
 ## Compatiblity
-Currently only,
-      *CydiaScriptLoader
-      *maybe more coming soon.
+Currently only, CydiaScriptLoader.
 
 is compatible with this plugin.
 
