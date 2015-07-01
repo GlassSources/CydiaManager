@@ -52,6 +52,7 @@ function Initialize(Plugin)
 end
 
 function manageCommand(Split, Player)
+  if Player:HasPermission() then
   if (#Split ~= 2) then
     Player:SendMessage("Usage: /manage [command]")
     return true
@@ -84,4 +85,11 @@ function manageCommand(Split, Player)
   if Split[2] == "help" then
     Player:SendMessage("Cydia Manager - help is not implemented in this build.")
   end
+end
+else
+  Player:SendMessage("Sorry, you don't have permission.")
+end
+
+function OnDisable()
+  LOG("Cydia Manager - shutted down. systems are off.")
 end
